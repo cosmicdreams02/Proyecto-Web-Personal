@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="contacto.css" />
+    <title>Contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&family=Righteous&family=Space+Mono&family=Titan+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!----Developer header---->
+
+    <div class="Developer">
+      <nav class="nav">
+        <div class="pikachu">
+          <a href="index.html"
+            ><img class="imgpika" src="img/pikachublanco.png"
+          /></a>
+          <!-- <img class="imgpika" src="img/pikachu1.jpg" /> -->
+        </div>
+        <div class="Nombrelogo">
+          <p class="logo">
+            <span><strong>オレンジハート</strong></span>
+          </p>
+        </div>
+        <div class="biografia">
+          <a href="./biografia.html"><b>Biography</b></a>
+        </div>
+        <div class="portfolio">
+          <a href="./portfolio.html"><b>Portfolio</b></a>
+        </div>
+      </nav>
+      <div class="wrapper">
+        <form class="form">
+          <div class="pageTitle title">Contact</div>
+          <div class="secondaryTitle title"></div>
+          <input type="text" class="name formEntry" placeholder="Name" />
+          <input type="text" class="email formEntry" placeholder="Email" />
+          <textarea class="message formEntry" placeholder="Message"></textarea>
+          <label style="color: grey" for="terms">
+          <button class="submit formEntry" onclick="thanks()">Submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
